@@ -13,6 +13,9 @@
 		5D6E5CE921B52E4600623664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E5CE721B52E4600623664 /* Main.storyboard */; };
 		5D6E5CEB21B52E4E00623664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E5CEA21B52E4E00623664 /* Assets.xcassets */; };
 		5D6E5CEE21B52E4E00623664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6E5CEC21B52E4E00623664 /* LaunchScreen.storyboard */; };
+		5D6E5CFB21B5320000623664 /* VerifyUserViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E5CFA21B5320000623664 /* VerifyUserViewC.swift */; };
+		5D6E5CFD21B54AE100623664 /* CreateNewGuestViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E5CFC21B54AE100623664 /* CreateNewGuestViewC.swift */; };
+		5D6E5CFF21B54B4700623664 /* OTPVerificationViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6E5CFE21B54B4700623664 /* OTPVerificationViewC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		5D6E5CEA21B52E4E00623664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6E5CED21B52E4E00623664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6E5CEF21B52E4E00623664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6E5CFA21B5320000623664 /* VerifyUserViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyUserViewC.swift; sourceTree = "<group>"; };
+		5D6E5CFC21B54AE100623664 /* CreateNewGuestViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGuestViewC.swift; sourceTree = "<group>"; };
+		5D6E5CFE21B54B4700623664 /* OTPVerificationViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewC.swift; sourceTree = "<group>"; };
 		C90ED6DD6EABC03B34647663 /* Pods-IDine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDine.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDine/Pods-IDine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				5D6E5CE521B52E4600623664 /* ViewController.swift */,
+				5D6E5CFA21B5320000623664 /* VerifyUserViewC.swift */,
+				5D6E5CFC21B54AE100623664 /* CreateNewGuestViewC.swift */,
+				5D6E5CFE21B54B4700623664 /* OTPVerificationViewC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6E5CFD21B54AE100623664 /* CreateNewGuestViewC.swift in Sources */,
+				5D6E5CFB21B5320000623664 /* VerifyUserViewC.swift in Sources */,
+				5D6E5CFF21B54B4700623664 /* OTPVerificationViewC.swift in Sources */,
 				5D6E5CE621B52E4600623664 /* ViewController.swift in Sources */,
 				5D6E5CE421B52E4600623664 /* AppDelegate.swift in Sources */,
 			);
